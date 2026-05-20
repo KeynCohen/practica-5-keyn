@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="panel">
+        <h1>Mi primer panel interactivo</h1>
+        <p id="mensaje">Pulsa un botón para empezar.</p>
+
+        <button id="btn-saludar">Saludar</button>
+
+        <section class="contador">
+            <h2>Contador</h2>
+            <p id="numero">0</p>
+            <button id="btn-restar">Restar</button>
+            <button id="btn-reset">Reset</button>
+            <button id="btn-sumar">Sumar</button>
+        </section>
+
+        <section class="tareas">
+            <h2>Lista de tareas</h2>
+            <input id="input-tarea" type="text" placeholder="Escribe una tarea">
+            <button id="btn-agregar">Agregar</button>
+            <ul id="lista-tareas"></ul>
+        </section>
+
+        <button id="btn-tema">Cambiar tema</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
